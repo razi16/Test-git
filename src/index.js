@@ -1,5 +1,6 @@
 import "./style/style.css";
 
+// const generateQuestion = () => {
 const playNow = document.getElementById('play-now');
 const main = document.getElementById('main');
 const scores = [];
