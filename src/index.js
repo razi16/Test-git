@@ -44,7 +44,7 @@ const generateQuestion = () => {
   );
 };
 
-
+//var a = coba;
 //Mungkin bisa dibikin file baru khusus buat fungsi question
 const questions = (questionPar) => {
     const question = document.createElement('p');
