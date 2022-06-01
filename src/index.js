@@ -1,5 +1,6 @@
 import "./style/style.css";
 
+// const generateQuestion = () => {
 const playNow = document.getElementById('play-now');
 const main = document.getElementById('main');
 const scores = [];
@@ -7,6 +8,7 @@ let questionCount = 0;
 let score = 0;
 const SAVED_EVENT = 'saved-scores';
 const STORAGE_KEY = 'QUIZ_APPS';
+//test
 
 function isStorageExist() /* boolean */ {
     if (typeof (Storage) === undefined) {
