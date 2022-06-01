@@ -8,6 +8,7 @@ let questionCount = 0;
 let score = 0;
 const SAVED_EVENT = 'saved-scores';
 const STORAGE_KEY = 'QUIZ_APPS';
+//test
 
 function isStorageExist() /* boolean */ {
     if (typeof (Storage) === undefined) {
